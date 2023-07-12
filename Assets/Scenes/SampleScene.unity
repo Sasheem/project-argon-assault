@@ -128,6 +128,16 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2332428686902797204, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
   m_PrefabInstance: {fileID: 2332428687050856706}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &182772119 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6020403312669257355, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+  m_PrefabInstance: {fileID: 2332428687050856706}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &694350154 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3400519299609161117, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+  m_PrefabInstance: {fileID: 2332428687050856706}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +540,58 @@ PrefabInstance:
     - target: {fileID: 2332428686902797207, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332428687050856732, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+      propertyPath: fire.m_Id
+      value: 84a00ba5-5dac-4781-a3c2-2370d5b2adb2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332428687050856732, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+      propertyPath: fire.m_Name
+      value: Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332428687050856732, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332428687050856732, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 694350154}
+    - target: {fileID: 2332428687050856732, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 182772119}
+    - target: {fileID: 2332428687050856732, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332428687050856732, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 871f0093-0b0e-441e-8943-49ab5b148ff6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332428687050856732, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[1].m_Id
+      value: 834ef9ad-b31b-49ec-9487-6449d6a068f9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332428687050856732, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/ctrl
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332428687050856732, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[1].m_Path
+      value: <Joystick>/stick
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332428687050856732, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 2332428687050856732, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+      propertyPath: fire.m_SingletonActionBindings.Array.data[1].m_Action
+      value: Fire
+      objectReference: {fileID: 0}
+    - target: {fileID: 6020403312669257355, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79f45ed41f2049d41b090d0c6e97281b, type: 3}

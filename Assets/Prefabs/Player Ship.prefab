@@ -712,6 +712,16 @@ MonoBehaviour:
       m_Action: Movement
       m_Flags: 0
     m_Flags: 0
+  fire:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  lasers: []
   controlSpeed: 40
   xRange: 10
   yRange: 7
@@ -1932,6 +1942,10 @@ PrefabInstance:
     - target: {fileID: 8186130334955376459, guid: 2b60f553cb97b4f4cb477bee097a4a4f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8403327964277684206, guid: 2b60f553cb97b4f4cb477bee097a4a4f, type: 3}
+      propertyPath: EmissionModule.enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2b60f553cb97b4f4cb477bee097a4a4f, type: 3}
