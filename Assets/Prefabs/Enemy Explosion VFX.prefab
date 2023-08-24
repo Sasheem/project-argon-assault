@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 6282508160977562775}
   - component: {fileID: 3422212196762653345}
   - component: {fileID: 6238697565771365360}
+  - component: {fileID: 5920564312481045644}
   m_Layer: 0
-  m_Name: Explosion VFX
+  m_Name: Enemy Explosion VFX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -26,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3521775423507611525}
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 95.482635, y: 46.1, z: 81.2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -50,7 +51,7 @@ ParticleSystem:
   emitterVelocityMode: 1
   looping: 0
   prewarm: 0
-  playOnAwake: 0
+  playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
   startDelay:
@@ -226,10 +227,10 @@ ParticleSystem:
       maxColor: {r: 0.8962264, g: 0.8064432, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0.6770736, b: 0, a: 1}
-        key1: {r: 0.745283, g: 0.53949845, b: 0, a: 1}
-        key2: {r: 0.8679245, g: 0.2874592, b: 0, a: 0}
-        key3: {r: 0.990566, g: 0.52705586, b: 0.5315452, a: 0}
+        key0: {r: 0, g: 0.6398201, b: 1, a: 1}
+        key1: {r: 0.12641507, g: 1, b: 0.8829864, a: 1}
+        key2: {r: 0, g: 0.19119298, b: 0.8666667, a: 0}
+        key3: {r: 0.65452117, g: 0.9202341, b: 0.9716981, a: 0}
         key4: {r: 1, g: 1, b: 1, a: 0}
         key5: {r: 1, g: 1, b: 1, a: 0}
         key6: {r: 1, g: 1, b: 1, a: 0}
@@ -4762,7 +4763,7 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: ebbd0f07fa7294543b4f7e2922bde433, type: 2}
-  - {fileID: 2100000, guid: 2ee365f7bb02bd34e92396f1b3507d28, type: 2}
+  - {fileID: 2100000, guid: 8b9b3cfae7f59464891006067142aebb, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4813,3 +4814,16 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &5920564312481045644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3521775423507611525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b967fc9fa7d274649a393bf245236506, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeTillDestory: 3
