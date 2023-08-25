@@ -14,6 +14,13 @@ public class Enemy : MonoBehaviour
 
     void Start() {
         scoreBoard = FindObjectOfType<ScoreBoard>();
+        AddRigidbody();
+    }
+
+    // allows for children colliders to register collisions
+    void AddRigidbody() {
+        Rigidbody rb = gameObject.AddComponent<Rigidbody>();
+        rb.useGravity = false;
     }
 
     // fires upon collision from bullet
