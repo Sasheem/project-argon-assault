@@ -38,11 +38,12 @@ public class Enemy : MonoBehaviour
         vfx.transform.parent = parentGameObject.transform;
         // adjust hit points
         hitPoints--;
-        // update scoreboard
-        scoreBoard.IncreaseScore(scorePerHit);
     }
 
     void KillEnemy() {
+        // update scoreboard
+        scoreBoard.IncreaseScore(scorePerHit);
+        
         // bring the enemy explosion effect to life and autmatically plays due to setting
         GameObject vfx = Instantiate(deathVFX, transform.position, Quaternion.identity);
 
