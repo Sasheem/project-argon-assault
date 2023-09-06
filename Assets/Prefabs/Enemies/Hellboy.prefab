@@ -521,6 +521,7 @@ GameObject:
   - component: {fileID: 2822120663225158197}
   - component: {fileID: 2813692205993941189}
   - component: {fileID: 7882863509621075623}
+  - component: {fileID: 4724861903092049844}
   m_Layer: 0
   m_Name: Hellboy
   m_TagString: Untagged
@@ -606,10 +607,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edcc5b2ec13a2b64f9b3f337a74161ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 3521775423507611525, guid: fe28aa12c3326b34d92aba5bfc4a6bc9, type: 3}
+  deathFX: {fileID: 3521775423507611525, guid: fe28aa12c3326b34d92aba5bfc4a6bc9, type: 3}
   hitVFX: {fileID: 3521775423507611525, guid: 0a597b8b67e80434fb687d47f9d32fd1, type: 3}
   scorePerHit: 200
   hitPoints: 5
+--- !u!65 &4724861903092049844
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2835972261451543229}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.491302, y: 2.8077502, z: 10.850525}
+  m_Center: {x: 0, y: -0.0000056624413, z: 0.0000011920929}
 --- !u!1 &2858352821903321315
 GameObject:
   m_ObjectHideFlags: 0

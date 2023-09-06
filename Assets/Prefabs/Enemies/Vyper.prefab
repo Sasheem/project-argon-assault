@@ -329,6 +329,7 @@ GameObject:
   - component: {fileID: 6404522622120783336}
   - component: {fileID: 3598553397197731274}
   - component: {fileID: 1027148312}
+  - component: {fileID: -231674378332400345}
   m_Layer: 0
   m_Name: Vyper
   m_TagString: Untagged
@@ -414,7 +415,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edcc5b2ec13a2b64f9b3f337a74161ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 3521775423507611525, guid: fe28aa12c3326b34d92aba5bfc4a6bc9, type: 3}
+  deathFX: {fileID: 3521775423507611525, guid: fe28aa12c3326b34d92aba5bfc4a6bc9, type: 3}
   hitVFX: {fileID: 3521775423507611525, guid: 0a597b8b67e80434fb687d47f9d32fd1, type: 3}
   scorePerHit: 30
   hitPoints: 1
@@ -439,6 +440,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!65 &-231674378332400345
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4891352385782926397}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 7.147294, y: 3.2459185, z: 10.599532}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5015617055075225864
 GameObject:
   m_ObjectHideFlags: 0

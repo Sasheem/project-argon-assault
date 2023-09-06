@@ -417,6 +417,7 @@ GameObject:
   - component: {fileID: 1369854771456166912}
   - component: {fileID: 3811809871206299850}
   - component: {fileID: 7063423071696185547}
+  - component: {fileID: -8678440840982731969}
   m_Layer: 0
   m_Name: Scooby
   m_TagString: Untagged
@@ -502,10 +503,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edcc5b2ec13a2b64f9b3f337a74161ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 3521775423507611525, guid: fe28aa12c3326b34d92aba5bfc4a6bc9, type: 3}
+  deathFX: {fileID: 3521775423507611525, guid: fe28aa12c3326b34d92aba5bfc4a6bc9, type: 3}
   hitVFX: {fileID: 3521775423507611525, guid: 0a597b8b67e80434fb687d47f9d32fd1, type: 3}
   scorePerHit: 100
   hitPoints: 2
+--- !u!65 &-8678440840982731969
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3451649101534042399}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.3756166, y: 2.873394, z: 10.557743}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &3542110360188917726
 GameObject:
   m_ObjectHideFlags: 0

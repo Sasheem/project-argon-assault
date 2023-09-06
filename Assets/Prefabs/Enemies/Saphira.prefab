@@ -791,6 +791,7 @@ GameObject:
   - component: {fileID: 5322055730474021787}
   - component: {fileID: 5331823319295152559}
   - component: {fileID: 8827689897254339019}
+  - component: {fileID: 1007564409640622123}
   m_Layer: 0
   m_Name: Saphira
   m_TagString: Untagged
@@ -876,10 +877,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: edcc5b2ec13a2b64f9b3f337a74161ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  deathVFX: {fileID: 3521775423507611525, guid: fe28aa12c3326b34d92aba5bfc4a6bc9, type: 3}
+  deathFX: {fileID: 3521775423507611525, guid: fe28aa12c3326b34d92aba5bfc4a6bc9, type: 3}
   hitVFX: {fileID: 3521775423507611525, guid: 0a597b8b67e80434fb687d47f9d32fd1, type: 3}
   scorePerHit: 30
   hitPoints: 1
+--- !u!65 &1007564409640622123
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5307735865494395643}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.865558, y: 4.241986, z: 11.309124}
+  m_Center: {x: 0.00000047683716, y: -0.000006198883, z: -0.0000011920929}
 --- !u!1 &5576215320894721933
 GameObject:
   m_ObjectHideFlags: 0
